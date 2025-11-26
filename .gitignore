@@ -1,0 +1,14 @@
+Blog_files/
+.DS_Store
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+*.log
+
+# Sensitive TF vars
+terraform.tfvars
+terraform.tfvars.json
