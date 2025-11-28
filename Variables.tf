@@ -74,3 +74,17 @@ data "aws_subnets" "blog_private_subnets" {
     values = ["private"]
   }
 }
+
+# Target group
+variable "blog_tg_port" {
+  description = "Port for Nancy's blog target group"
+  type        = number
+  default     = 80
+}
+
+variable "blog_tg_health_check_path" {
+  description = "Health check path for blog target group"
+  type        = string
+  default     = "/"
+}
+

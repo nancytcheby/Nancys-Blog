@@ -76,7 +76,36 @@ resource "aws_efs_mount_target" "blog_efs_mt" {
   }
 }
 
+# ========================================
+# Target Group for Nancy's Blog
+# ========================================
 
+resource "aws_lb_target_group" "blog_tg" {
+  name     = "nancy-blog-tg-${var.env}"
+  port     = var.blog_tg_port
+  protocol = "HTTP"
+  vpc_id   = data.aws_vpc.blog_vpc.id
 
+  target_type = "instance"
+
+  health_check {
+    path                = var.blog_tg_health_check_path
+    matcher             = "200-399"
+    healthy_threshold   = 3
+    unhealthy_threshold = 5
+    timeout             = 10
+    interval            = 60
+    protocol            = "HTTP"
+    port                = "traffic-port"
+  }
+
+  tags = merge(local.blog_common_tags, {
+    Name = "nancy-blog-tg-${var.env}"
+  })
+
+  lifecycle {
+    create_before_destroy = true
+  }
+}
 
 
