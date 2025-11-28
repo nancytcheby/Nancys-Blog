@@ -62,15 +62,8 @@ variable "blog_efs_subnet_ids" {
   default     = []
 }
 
-# Get all private subnets in the VPC
-data "aws_subnets" "blog_private_subnets" {
-  filter {
-    name   = "vpc-id"
-    values = [data.aws_vpc.blog_vpc.id]
-  }
-
-  filter {
-    name   = "tag:Tier"
-    values = ["private"]
-  }
+variable "alb_subnet_ids" {
+  description = "List of subnet IDs for the Application Load Balancer (must be in at least two different AZs)"
+  type        = list(string)
+  default     = []
 }
