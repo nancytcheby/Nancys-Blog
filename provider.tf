@@ -7,3 +7,14 @@ provider "aws" {
     session_name = "terraform-blog-dev-session"
   }
 }
+
+# --- ADMIN / MGMT Account Provider (for SSM Parameter Store) ---
+provider "aws" {
+  alias  = "admin"
+  region = var.PARAMETER_STORE_REGION
+
+  assume_role {
+    role_arn     = var.admin_ssm_role_arn
+    session_name = "terraform-admin-ssm-session"
+  }
+}

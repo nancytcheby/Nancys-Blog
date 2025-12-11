@@ -1,0 +1,1495 @@
+{
+  "version": 4,
+  "terraform_version": "1.13.3",
+  "serial": 364,
+  "lineage": "0cc34586-f397-34d5-ac8d-c0f180e71cb9",
+  "outputs": {
+    "alb_dns": {
+      "value": "nancy-blog-alb-dev-298163574.us-east-1.elb.amazonaws.com",
+      "type": "string"
+    },
+    "blog_asg_arn": {
+      "value": "arn:aws:autoscaling:us-east-1:083587468058:autoScalingGroup:9831d122-3c43-4597-848e-304f23ddd214:autoScalingGroupName/nancy-blog-asg-dev",
+      "type": "string"
+    },
+    "blog_asg_desired_capacity": {
+      "value": 1,
+      "type": "number"
+    },
+    "blog_asg_name": {
+      "value": "nancy-blog-asg-dev",
+      "type": "string"
+    },
+    "blog_db_endpoint": {
+      "value": "nancy-blog-db-dev-16b57432.c8x2s4kiedw0.us-east-1.rds.amazonaws.com:3306",
+      "type": "string"
+    },
+    "blog_db_identifier": {
+      "value": "db-4SNDBAACWQITI5ETHNOFHG76FY",
+      "type": "string"
+    },
+    "blog_key_pair_name": {
+      "value": "nancy-blog-key-dev",
+      "type": "string"
+    },
+    "blog_key_private_pem": {
+      "value": "-----BEGIN RSA PRIVATE KEY-----\n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\n-----END RSA PRIVATE KEY-----\n",
+      "type": "string",
+      "sensitive": true
+    },
+    "efs_id": {
+      "value": "fs-027ad716f146ed93b",
+      "type": "string"
+    }
+  },
+  "resources": [
+    {
+      "mode": "data",
+      "type": "aws_ami",
+      "name": "blog_ami",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "architecture": "x86_64",
+            "arn": "arn:aws:ec2:us-east-1::image/ami-08fa3ed5577079e64",
+            "block_device_mappings": [
+              {
+                "device_name": "/dev/xvda",
+                "ebs": {
+                  "delete_on_termination": "true",
+                  "encrypted": "false",
+                  "iops": "3000",
+                  "snapshot_id": "snap-00ab232ebe3af4034",
+                  "throughput": "125",
+                  "volume_initialization_rate": "0",
+                  "volume_size": "30",
+                  "volume_type": "gp3"
+                },
+                "no_device": "",
+                "virtual_name": ""
+              }
+            ],
+            "boot_mode": "uefi-preferred",
+            "creation_date": "2025-11-20T01:19:27.000Z",
+            "deprecation_time": "2027-11-20T01:19:27.000Z",
+            "description": "Amazon Linux AMI 2023.0.20251119 x86_64 ECS HVM EBS",
+            "ena_support": true,
+            "executable_users": null,
+            "filter": [
+              {
+                "name": "architecture",
+                "values": [
+                  "x86_64"
+                ]
+              },
+              {
+                "name": "name",
+                "values": [
+                  "al2023-ami-*-kernel-6.1-x86_64"
+                ]
+              }
+            ],
+            "hypervisor": "xen",
+            "id": "ami-08fa3ed5577079e64",
+            "image_id": "ami-08fa3ed5577079e64",
+            "image_location": "amazon/al2023-ami-ecs-hvm-2023.0.20251119-kernel-6.1-x86_64",
+            "image_owner_alias": "amazon",
+            "image_type": "machine",
+            "imds_support": "v2.0",
+            "include_deprecated": false,
+            "kernel_id": "",
+            "last_launched_time": "",
+            "most_recent": true,
+            "name": "al2023-ami-ecs-hvm-2023.0.20251119-kernel-6.1-x86_64",
+            "name_regex": null,
+            "owner_id": "591542846629",
+            "owners": [
+              "amazon"
+            ],
+            "platform": "",
+            "platform_details": "Linux/UNIX",
+            "product_codes": [],
+            "public": true,
+            "ramdisk_id": "",
+            "root_device_name": "/dev/xvda",
+            "root_device_type": "ebs",
+            "root_snapshot_id": "snap-00ab232ebe3af4034",
+            "sriov_net_support": "simple",
+            "state": "available",
+            "state_reason": {
+              "code": "UNSET",
+              "message": "UNSET"
+            },
+            "tags": {},
+            "timeouts": null,
+            "tpm_support": "",
+            "uefi_data": null,
+            "usage_operation": "RunInstances",
+            "virtualization_type": "hvm"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0
+        }
+      ]
+    },
+    {
+      "mode": "data",
+      "type": "aws_caller_identity",
+      "name": "current",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "account_id": "083587468058",
+            "arn": "arn:aws:sts::083587468058:assumed-role/Engineer/terraform-blog-dev-session",
+            "id": "083587468058",
+            "user_id": "AROARG5RTRMNHXBHM5BNC:terraform-blog-dev-session"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0
+        }
+      ]
+    },
+    {
+      "mode": "data",
+      "type": "aws_db_subnet_group",
+      "name": "blog_db_subnet_group",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "arn": "arn:aws:rds:us-east-1:083587468058:subgrp:rds-ec2-db-subnet-group-1",
+            "description": "Created from the RDS Management Console",
+            "id": "rds-ec2-db-subnet-group-1",
+            "name": "rds-ec2-db-subnet-group-1",
+            "status": "Complete",
+            "subnet_ids": [
+              "subnet-02e9b5b240e949129",
+              "subnet-071b84b2c6678e883",
+              "subnet-08b06ee0698b77a8e",
+              "subnet-0f42f637a0ef4ff74",
+              "subnet-0feb1731ea8f6b85d"
+            ],
+            "supported_network_types": [
+              "IPV4"
+            ],
+            "vpc_id": "vpc-03933c67bfb9249b8"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0
+        }
+      ]
+    },
+    {
+      "mode": "data",
+      "type": "aws_region",
+      "name": "current",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "description": "US East (N. Virginia)",
+            "endpoint": "ec2.us-east-1.amazonaws.com",
+            "id": "us-east-1",
+            "name": "us-east-1"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0
+        }
+      ]
+    },
+    {
+      "mode": "data",
+      "type": "aws_route53_zone",
+      "name": "blog",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "arn": "arn:aws:route53:::hostedzone/Z074704322JFUBDW5LSEH",
+            "caller_reference": "fcd54e12-e867-4d77-9317-31168b607837",
+            "comment": "",
+            "id": "Z074704322JFUBDW5LSEH",
+            "linked_service_description": null,
+            "linked_service_principal": null,
+            "name": "nancy-stack.com",
+            "name_servers": [
+              "ns-1967.awsdns-53.co.uk",
+              "ns-538.awsdns-03.net",
+              "ns-292.awsdns-36.com",
+              "ns-1182.awsdns-19.org"
+            ],
+            "primary_name_server": "ns-1967.awsdns-53.co.uk",
+            "private_zone": false,
+            "resource_record_set_count": 4,
+            "tags": {},
+            "vpc_id": null,
+            "zone_id": "Z074704322JFUBDW5LSEH"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0
+        }
+      ]
+    },
+    {
+      "mode": "data",
+      "type": "aws_subnets",
+      "name": "blog_private_subnets",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "filter": [
+              {
+                "name": "tag:Name",
+                "values": [
+                  "*Private*"
+                ]
+              },
+              {
+                "name": "vpc-id",
+                "values": [
+                  "vpc-03933c67bfb9249b8"
+                ]
+              }
+            ],
+            "id": "us-east-1",
+            "ids": [],
+            "tags": null,
+            "timeouts": null
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0
+        }
+      ]
+    },
+    {
+      "mode": "data",
+      "type": "aws_subnets",
+      "name": "blog_public_subnets",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "filter": [
+              {
+                "name": "tag:Tier",
+                "values": [
+                  "Public"
+                ]
+              },
+              {
+                "name": "vpc-id",
+                "values": [
+                  "vpc-03933c67bfb9249b8"
+                ]
+              }
+            ],
+            "id": "us-east-1",
+            "ids": [],
+            "tags": null,
+            "timeouts": null
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0
+        }
+      ]
+    },
+    {
+      "mode": "data",
+      "type": "aws_vpc",
+      "name": "blog_vpc",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "arn": "arn:aws:ec2:us-east-1:083587468058:vpc/vpc-03933c67bfb9249b8",
+            "cidr_block": "172.31.0.0/16",
+            "cidr_block_associations": [
+              {
+                "association_id": "vpc-cidr-assoc-02b3840c58d2ea720",
+                "cidr_block": "172.31.0.0/16",
+                "state": "associated"
+              }
+            ],
+            "default": true,
+            "dhcp_options_id": "dopt-08e98912fc46c72c9",
+            "enable_dns_hostnames": true,
+            "enable_dns_support": true,
+            "enable_network_address_usage_metrics": false,
+            "filter": null,
+            "id": "vpc-03933c67bfb9249b8",
+            "instance_tenancy": "default",
+            "ipv6_association_id": "",
+            "ipv6_cidr_block": "",
+            "main_route_table_id": "rtb-03560efb494945baf",
+            "owner_id": "083587468058",
+            "state": null,
+            "tags": {},
+            "timeouts": null
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_autoscaling_group",
+      "name": "blog_asg",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "arn": "arn:aws:autoscaling:us-east-1:083587468058:autoScalingGroup:9831d122-3c43-4597-848e-304f23ddd214:autoScalingGroupName/nancy-blog-asg-dev",
+            "availability_zone_distribution": [
+              {
+                "capacity_distribution_strategy": "balanced-best-effort"
+              }
+            ],
+            "availability_zones": [
+              "us-east-1a",
+              "us-east-1d",
+              "us-east-1f"
+            ],
+            "capacity_rebalance": false,
+            "capacity_reservation_specification": [
+              {
+                "capacity_reservation_preference": "default",
+                "capacity_reservation_target": []
+              }
+            ],
+            "context": "",
+            "default_cooldown": 300,
+            "default_instance_warmup": 0,
+            "desired_capacity": 1,
+            "desired_capacity_type": "",
+            "enabled_metrics": [],
+            "force_delete": false,
+            "force_delete_warm_pool": false,
+            "health_check_grace_period": 2400,
+            "health_check_type": "ELB",
+            "id": "nancy-blog-asg-dev",
+            "ignore_failed_scaling_activities": false,
+            "initial_lifecycle_hook": [],
+            "instance_maintenance_policy": [],
+            "instance_refresh": [],
+            "launch_configuration": "",
+            "launch_template": [
+              {
+                "id": "lt-09d1b8e1af6f68c63",
+                "name": "nancy-blog-lt-dev-20251129045846994600000006",
+                "version": "$Latest"
+              }
+            ],
+            "load_balancers": [],
+            "max_instance_lifetime": 0,
+            "max_size": 1,
+            "metrics_granularity": "1Minute",
+            "min_elb_capacity": null,
+            "min_size": 1,
+            "mixed_instances_policy": [],
+            "name": "nancy-blog-asg-dev",
+            "name_prefix": "",
+            "placement_group": "",
+            "predicted_capacity": 0,
+            "protect_from_scale_in": false,
+            "service_linked_role_arn": "arn:aws:iam::083587468058:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling",
+            "suspended_processes": [],
+            "tag": [
+              {
+                "key": "Name",
+                "propagate_at_launch": true,
+                "value": "nancy-blog-ec2-dev"
+              }
+            ],
+            "target_group_arns": [
+              "arn:aws:elasticloadbalancing:us-east-1:083587468058:targetgroup/nancy-blog-tg-dev/b14714bd9a7cc6b5"
+            ],
+            "termination_policies": [],
+            "timeouts": null,
+            "traffic_source": [
+              {
+                "identifier": "arn:aws:elasticloadbalancing:us-east-1:083587468058:targetgroup/nancy-blog-tg-dev/b14714bd9a7cc6b5",
+                "type": "elbv2"
+              }
+            ],
+            "vpc_zone_identifier": [
+              "subnet-0845a6847dc55232b",
+              "subnet-0a9d993807904fd0c",
+              "subnet-0fdf3adafd8031d1e"
+            ],
+            "wait_for_capacity_timeout": "10m",
+            "wait_for_elb_capacity": null,
+            "warm_pool": [],
+            "warm_pool_size": 0
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiZGVsZXRlIjo2MDAwMDAwMDAwMDAsInVwZGF0ZSI6NjAwMDAwMDAwMDAwfSwic2NoZW1hX3ZlcnNpb24iOiIxIn0=",
+          "dependencies": [
+            "aws_db_instance.nancy_blog_db",
+            "aws_efs_file_system.blog_efs",
+            "aws_key_pair.blog_key",
+            "aws_launch_template.blog_lt",
+            "aws_lb.blog_alb",
+            "aws_lb_target_group.blog_tg",
+            "aws_security_group.blog_sg",
+            "data.aws_ami.blog_ami",
+            "data.aws_vpc.blog_vpc",
+            "random_id.blog_db_suffix",
+            "tls_private_key.blog_key"
+          ],
+          "create_before_destroy": true
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_db_instance",
+      "name": "nancy_blog_db",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 2,
+          "attributes": {
+            "address": "nancy-blog-db-dev-16b57432.c8x2s4kiedw0.us-east-1.rds.amazonaws.com",
+            "allocated_storage": 20,
+            "allow_major_version_upgrade": null,
+            "apply_immediately": true,
+            "arn": "arn:aws:rds:us-east-1:083587468058:db:nancy-blog-db-dev-16b57432",
+            "auto_minor_version_upgrade": true,
+            "availability_zone": "us-east-1b",
+            "backup_retention_period": 1,
+            "backup_target": "region",
+            "backup_window": "09:29-09:59",
+            "blue_green_update": [],
+            "ca_cert_identifier": "rds-ca-rsa2048-g1",
+            "character_set_name": "",
+            "copy_tags_to_snapshot": false,
+            "custom_iam_instance_profile": "",
+            "customer_owned_ip_enabled": false,
+            "database_insights_mode": "standard",
+            "db_name": "wordpress",
+            "db_subnet_group_name": "rds-ec2-db-subnet-group-1",
+            "dedicated_log_volume": false,
+            "delete_automated_backups": true,
+            "deletion_protection": false,
+            "domain": "",
+            "domain_auth_secret_arn": "",
+            "domain_dns_ips": [],
+            "domain_fqdn": "",
+            "domain_iam_role_name": "",
+            "domain_ou": "",
+            "enabled_cloudwatch_logs_exports": [],
+            "endpoint": "nancy-blog-db-dev-16b57432.c8x2s4kiedw0.us-east-1.rds.amazonaws.com:3306",
+            "engine": "mysql",
+            "engine_lifecycle_support": "open-source-rds-extended-support",
+            "engine_version": "8.4.6",
+            "engine_version_actual": "8.4.6",
+            "final_snapshot_identifier": null,
+            "hosted_zone_id": "Z2R2ITUGPM61AM",
+            "iam_database_authentication_enabled": false,
+            "id": "db-4SNDBAACWQITI5ETHNOFHG76FY",
+            "identifier": "nancy-blog-db-dev-16b57432",
+            "identifier_prefix": "",
+            "instance_class": "db.t4g.micro",
+            "iops": 0,
+            "kms_key_id": "arn:aws:kms:us-east-1:083587468058:key/17387bf8-9a65-4bbf-a424-febbe71be985",
+            "latest_restorable_time": "2025-11-29T07:05:00Z",
+            "license_model": "general-public-license",
+            "listener_endpoint": [],
+            "maintenance_window": "wed:07:35-wed:08:05",
+            "manage_master_user_password": null,
+            "master_user_secret": [],
+            "master_user_secret_kms_key_id": null,
+            "max_allocated_storage": 0,
+            "monitoring_interval": 0,
+            "monitoring_role_arn": "",
+            "multi_az": false,
+            "nchar_character_set_name": "",
+            "network_type": "IPV4",
+            "option_group_name": "default:mysql-8-4",
+            "parameter_group_name": "default.mysql8.4",
+            "password": "Francoise123!",
+            "password_wo": null,
+            "password_wo_version": null,
+            "performance_insights_enabled": false,
+            "performance_insights_kms_key_id": "",
+            "performance_insights_retention_period": 0,
+            "port": 3306,
+            "publicly_accessible": false,
+            "replica_mode": "",
+            "replicas": [],
+            "replicate_source_db": "",
+            "resource_id": "db-4SNDBAACWQITI5ETHNOFHG76FY",
+            "restore_to_point_in_time": [],
+            "s3_import": [],
+            "skip_final_snapshot": true,
+            "snapshot_identifier": "arn:aws:rds:us-east-1:083587468058:snapshot:wordpressnancyclixx",
+            "status": "available",
+            "storage_encrypted": true,
+            "storage_throughput": 0,
+            "storage_type": "gp2",
+            "tags": {
+              "Application": "nancy-blog",
+              "Environment": "dev",
+              "Name": "nancy-blog-db-dev",
+              "OwnerEmail": "nancytcheby@hotmail.com"
+            },
+            "tags_all": {
+              "Application": "nancy-blog",
+              "Environment": "dev",
+              "Name": "nancy-blog-db-dev",
+              "OwnerEmail": "nancytcheby@hotmail.com"
+            },
+            "timeouts": null,
+            "timezone": "",
+            "upgrade_storage_config": null,
+            "username": "annetcheby",
+            "vpc_security_group_ids": [
+              "sg-041d6687a563e0dc9"
+            ]
+          },
+          "sensitive_attributes": [
+            [
+              {
+                "type": "get_attr",
+                "value": "password"
+              }
+            ],
+            [
+              {
+                "type": "get_attr",
+                "value": "password_wo"
+              }
+            ]
+          ],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjozMDAwMDAwMDAwMDAwLCJkZWxldGUiOjM2MDAwMDAwMDAwMDAsInVwZGF0ZSI6NDgwMDAwMDAwMDAwMH0sInNjaGVtYV92ZXJzaW9uIjoiMiJ9",
+          "dependencies": [
+            "aws_security_group.blog_sg",
+            "data.aws_vpc.blog_vpc",
+            "random_id.blog_db_suffix"
+          ],
+          "create_before_destroy": true
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_efs_file_system",
+      "name": "blog_efs",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "arn": "arn:aws:elasticfilesystem:us-east-1:083587468058:file-system/fs-027ad716f146ed93b",
+            "availability_zone_id": "",
+            "availability_zone_name": "",
+            "creation_token": "nancy-blog-efs-dev",
+            "dns_name": "fs-027ad716f146ed93b.efs.us-east-1.amazonaws.com",
+            "encrypted": true,
+            "id": "fs-027ad716f146ed93b",
+            "kms_key_id": "arn:aws:kms:us-east-1:083587468058:key/053bdd88-59e0-42ba-a7a3-bad25b7a6612",
+            "lifecycle_policy": [
+              {
+                "transition_to_archive": "",
+                "transition_to_ia": "AFTER_30_DAYS",
+                "transition_to_primary_storage_class": ""
+              }
+            ],
+            "name": "nancy-blog-efs-dev",
+            "number_of_mount_targets": 0,
+            "owner_id": "083587468058",
+            "performance_mode": "generalPurpose",
+            "protection": [
+              {
+                "replication_overwrite": "ENABLED"
+              }
+            ],
+            "provisioned_throughput_in_mibps": 0,
+            "size_in_bytes": [
+              {
+                "value": 6144,
+                "value_in_ia": 0,
+                "value_in_standard": 6144
+              }
+            ],
+            "tags": {
+              "Application": "nancy-blog",
+              "Environment": "dev",
+              "Name": "nancy-blog-efs-dev",
+              "OwnerEmail": "nancytcheby@hotmail.com",
+              "Project": "nancy-blog"
+            },
+            "tags_all": {
+              "Application": "nancy-blog",
+              "Environment": "dev",
+              "Name": "nancy-blog-efs-dev",
+              "OwnerEmail": "nancytcheby@hotmail.com",
+              "Project": "nancy-blog"
+            },
+            "throughput_mode": "bursting"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "create_before_destroy": true
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_efs_mount_target",
+      "name": "blog_efs_mt",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": []
+    },
+    {
+      "mode": "managed",
+      "type": "aws_iam_role",
+      "name": "ec2_access_role",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "arn": "arn:aws:iam::083587468058:role/EC2-Access-Role-20251129045843840700000001",
+            "assume_role_policy": "{\"Statement\":[{\"Action\":\"sts:AssumeRole\",\"Effect\":\"Allow\",\"Principal\":{\"Service\":\"ec2.amazonaws.com\"}}],\"Version\":\"2012-10-17\"}",
+            "create_date": "2025-11-29T04:58:44Z",
+            "description": "",
+            "force_detach_policies": false,
+            "id": "EC2-Access-Role-20251129045843840700000001",
+            "inline_policy": [
+              {
+                "name": "EC2-Access-Policy-20251129045844188100000003",
+                "policy": "{\"Version\":\"2012-10-17\",\"Statement\":[{\"Action\":[\"ssm:GetParameter\",\"ssm:GetParameters\",\"ssm:GetParametersByPath\",\"ssm:PutParameter\",\"ssm:UpdateInstanceInformation\",\"ssm:SendCommand\",\"ssm:ListCommandInvocations\",\"ssm:DescribeInstanceInformation\",\"ssm:DescribeInstanceAssociations\",\"ssm:DescribeParameters\"],\"Effect\":\"Allow\",\"Resource\":\"*\"},{\"Action\":[\"ec2messages:*\",\"ssmmessages:*\"],\"Effect\":\"Allow\",\"Resource\":\"*\"},{\"Action\":[\"elasticfilesystem:DescribeFileSystems\",\"elasticfilesystem:DescribeMountTargets\",\"elasticfilesystem:DescribeAccessPoints\",\"elasticfilesystem:ClientMount\",\"elasticfilesystem:ClientWrite\",\"elasticfilesystem:ClientRootAccess\"],\"Effect\":\"Allow\",\"Resource\":\"*\"},{\"Action\":[\"rds:DescribeDBInstances\",\"rds:DescribeDBClusters\"],\"Effect\":\"Allow\",\"Resource\":\"*\"},{\"Action\":[\"ec2:DescribeInstances\",\"ec2:DescribeInstanceStatus\",\"ec2:DescribeVolumes\",\"ec2:DescribeSnapshots\"],\"Effect\":\"Allow\",\"Resource\":\"*\"},{\"Action\":[\"logs:CreateLogGroup\",\"logs:CreateLogStream\",\"logs:PutLogEvents\",\"logs:DescribeLogStreams\"],\"Effect\":\"Allow\",\"Resource\":\"*\"}]}"
+              }
+            ],
+            "managed_policy_arns": [
+              "arn:aws:iam::aws:policy/AmazonSSMManagedInstanceCore",
+              "arn:aws:iam::aws:policy/CloudWatchAgentServerPolicy"
+            ],
+            "max_session_duration": 3600,
+            "name": "EC2-Access-Role-20251129045843840700000001",
+            "name_prefix": "EC2-Access-Role-",
+            "path": "/",
+            "permissions_boundary": "",
+            "tags": {
+              "Environment": "dev",
+              "Name": "EC2-Access-Role",
+              "Project": "clixx"
+            },
+            "tags_all": {
+              "Environment": "dev",
+              "Name": "EC2-Access-Role",
+              "Project": "clixx"
+            },
+            "unique_id": "AROARG5RTRMNFGDTWFD67"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA=="
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_iam_role_policy",
+      "name": "ec2_access_policy",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "id": "EC2-Access-Role-20251129045843840700000001:EC2-Access-Policy-20251129045844188100000003",
+            "name": "EC2-Access-Policy-20251129045844188100000003",
+            "name_prefix": "EC2-Access-Policy-",
+            "policy": "{\"Version\":\"2012-10-17\",\"Statement\":[{\"Action\":[\"ssm:GetParameter\",\"ssm:GetParameters\",\"ssm:GetParametersByPath\",\"ssm:PutParameter\",\"ssm:UpdateInstanceInformation\",\"ssm:SendCommand\",\"ssm:ListCommandInvocations\",\"ssm:DescribeInstanceInformation\",\"ssm:DescribeInstanceAssociations\",\"ssm:DescribeParameters\"],\"Effect\":\"Allow\",\"Resource\":\"*\"},{\"Action\":[\"ec2messages:*\",\"ssmmessages:*\"],\"Effect\":\"Allow\",\"Resource\":\"*\"},{\"Action\":[\"elasticfilesystem:DescribeFileSystems\",\"elasticfilesystem:DescribeMountTargets\",\"elasticfilesystem:DescribeAccessPoints\",\"elasticfilesystem:ClientMount\",\"elasticfilesystem:ClientWrite\",\"elasticfilesystem:ClientRootAccess\"],\"Effect\":\"Allow\",\"Resource\":\"*\"},{\"Action\":[\"rds:DescribeDBInstances\",\"rds:DescribeDBClusters\"],\"Effect\":\"Allow\",\"Resource\":\"*\"},{\"Action\":[\"ec2:DescribeInstances\",\"ec2:DescribeInstanceStatus\",\"ec2:DescribeVolumes\",\"ec2:DescribeSnapshots\"],\"Effect\":\"Allow\",\"Resource\":\"*\"},{\"Action\":[\"logs:CreateLogGroup\",\"logs:CreateLogStream\",\"logs:PutLogEvents\",\"logs:DescribeLogStreams\"],\"Effect\":\"Allow\",\"Resource\":\"*\"}]}",
+            "role": "EC2-Access-Role-20251129045843840700000001"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "aws_iam_role.ec2_access_role"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_iam_role_policy_attachment",
+      "name": "cloudwatch_agent_server_policy",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "id": "EC2-Access-Role-20251129045843840700000001-20251129045844264400000004",
+            "policy_arn": "arn:aws:iam::aws:policy/CloudWatchAgentServerPolicy",
+            "role": "EC2-Access-Role-20251129045843840700000001"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "aws_iam_role.ec2_access_role"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_iam_role_policy_attachment",
+      "name": "ssm_managed_instance_core",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "id": "EC2-Access-Role-20251129045843840700000001-20251129045844300400000005",
+            "policy_arn": "arn:aws:iam::aws:policy/AmazonSSMManagedInstanceCore",
+            "role": "EC2-Access-Role-20251129045843840700000001"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "aws_iam_role.ec2_access_role"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_key_pair",
+      "name": "blog_key",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "arn": "arn:aws:ec2:us-east-1:083587468058:key-pair/nancy-blog-key-dev",
+            "fingerprint": "26:22:09:18:22:e1:10:b6:95:c1:d6:a6:dc:48:2d:6a",
+            "id": "nancy-blog-key-dev",
+            "key_name": "nancy-blog-key-dev",
+            "key_name_prefix": "",
+            "key_pair_id": "key-09fdccad0fc76a133",
+            "key_type": "rsa",
+            "public_key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCbi5+p6fuA8aGnPMv3L1dpr3Ik6lcA5ZJIM5nN71yBzFTBZl0CyYgIMkSERXqRuISwbJt+5L7x6SaSVX8h2cDw/ZGGeyY+12zPGzgGPgC7XQUcQgJnOYbuZ4+DEEtRRcyj7saYWtrkMjpbC2KyOnT63S6e7WzmJw8WV2nkTyt6o8LkRkE8Y8o4NjwjP2o7LEDKepODoRkuhAc6mtDi5/Yd32seD6Sj4T8AyrD0guBGq/UQnL5O0ghmt6lbGFJQRHBzFn/pKtE+dnB6v4wZn1tVBAR5V31/+PGPQdV2HdT62fqiMe7Wd65VTX41YFBXscbH11HauYfr0L4T4yoQPRbnsl2YC/CbmGiJz+CvGBoceNlcH6c/oHg3GoW3bsXxqPFZrFZ+v4V6DOx1EYyktF/iWbMLVI0wbW5mTN8yeNmtpGfyLj4iawUIG/1x6bePDTVSFBDxXmJlkvHZBmzRH0MAydoj/5M3WciThujAdxIaG24QLzLOLq4RZuzWaLzUG4lektJGquvtC+gy5e0BbzJWqbGTfV35rm5UuPG7o5fD/U82kcWD1fJyWjWGjiv+JpzhVbqtL+72be9ikgKrNzmLqfE7JnQ3JsNsjBGcLKQOFO3LCwsBWOOsBRjSCPQuqDZYnEhxxZ9fdlRii7UYIiwqTI5lCYIRtIpislp43wQDnQ==",
+            "tags": {
+              "Application": "nancy-blog",
+              "Environment": "dev",
+              "Name": "nancy-blog-key-dev",
+              "OwnerEmail": "nancytcheby@hotmail.com"
+            },
+            "tags_all": {
+              "Application": "nancy-blog",
+              "Environment": "dev",
+              "Name": "nancy-blog-key-dev",
+              "OwnerEmail": "nancytcheby@hotmail.com"
+            }
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ==",
+          "dependencies": [
+            "tls_private_key.blog_key"
+          ],
+          "create_before_destroy": true
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_launch_template",
+      "name": "blog_lt",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "arn": "arn:aws:ec2:us-east-1:083587468058:launch-template/lt-09d1b8e1af6f68c63",
+            "block_device_mappings": [],
+            "capacity_reservation_specification": [],
+            "cpu_options": [],
+            "credit_specification": [],
+            "default_version": 1,
+            "description": "",
+            "disable_api_stop": false,
+            "disable_api_termination": false,
+            "ebs_optimized": "",
+            "elastic_gpu_specifications": [],
+            "elastic_inference_accelerator": [],
+            "enclave_options": [],
+            "hibernation_options": [],
+            "iam_instance_profile": [
+              {
+                "arn": "",
+                "name": "EC2-Access-Profile-20251126223053681300000004"
+              }
+            ],
+            "id": "lt-09d1b8e1af6f68c63",
+            "image_id": "ami-08fa3ed5577079e64",
+            "instance_initiated_shutdown_behavior": "",
+            "instance_market_options": [],
+            "instance_requirements": [],
+            "instance_type": "t3.micro",
+            "kernel_id": "",
+            "key_name": "nancy-blog-key-dev",
+            "latest_version": 2,
+            "license_specification": [],
+            "maintenance_options": [],
+            "metadata_options": [],
+            "monitoring": [],
+            "name": "nancy-blog-lt-dev-20251129045846994600000006",
+            "name_prefix": "nancy-blog-lt-dev-",
+            "network_interfaces": [],
+            "placement": [],
+            "private_dns_name_options": [],
+            "ram_disk_id": "",
+            "security_group_names": [],
+            "tag_specifications": [
+              {
+                "resource_type": "instance",
+                "tags": {
+                  "Application": "nancy-blog",
+                  "Environment": "dev",
+                  "Name": "nancy-blog-ec2-dev",
+                  "OwnerEmail": "nancytcheby@hotmail.com",
+                  "Project": "nancy-blog"
+                }
+              }
+            ],
+            "tags": {},
+            "tags_all": {},
+            "update_default_version": null,
+            "user_data": "IyEvYmluL2Jhc2gKc2V0IC1ldXhvIHBpcGVmYWlsCgojID09PT09IENvbmZpZyB5b3Ugb3duID09PT09Ck9XTkVSX0FDQ09VTlRfSUQ9IjEzNTU3NjkwMDE4OSIgICAgICAgICAgICAgICAgICAgICAgICMgYWNjb3VudCB0aGF0IE9XTlMgL25hbmN5d3AvKiBwYXJhbXMKUkVQT19VUkw9Imh0dHBzOi8vZ2l0aHViLmNvbS9uYW5jeXRjaGVieS9OYW5jeXMtQmxvZy5naXQiCgojID09PT09IERpc2NvdmVyIHJlZ2lvbiB2aWEgSU1EU3YyID09PT09ClRPS0VOPSQoY3VybCAtcyAtWCBQVVQgImh0dHA6Ly8xNjkuMjU0LjE2OS4yNTQvbGF0ZXN0L2FwaS90b2tlbiIgXAogIC1IICJYLWF3cy1lYzItbWV0YWRhdGEtdG9rZW4tdHRsLXNlY29uZHM6IDM2MDAiIHx8IHRydWUpClJFR0lPTj0kKGN1cmwgLXMgLUggIlgtYXdzLWVjMi1tZXRhZGF0YS10b2tlbjogJFRPS0VOIiBcCiAgaHR0cDovLzE2OS4yNTQuMTY5LjI1NC9sYXRlc3QvbWV0YS1kYXRhL3BsYWNlbWVudC9yZWdpb24gfHwgdHJ1ZSkKUkVHSU9OPSR7UkVHSU9OOi11cy1lYXN0LTF9CgojID09PT09IFBhY2thZ2VzICYgc2VydmljZXMgPT09PT0KZG5mIC15IHVwZGF0ZQpkbmYgLXkgaW5zdGFsbCBnaXQgaHR0cGQgcGhwIHBocC1mcG0gcGhwLW15c3FsbmQgYW1hem9uLWVmcy11dGlscyBtYXJpYWRiMTA1CnN5c3RlbWN0bCBlbmFibGUgLS1ub3cgcGhwLWZwbSBodHRwZAoKIyBBcGFjaGUgYmFzaWNzCmVjaG8gJ0RpcmVjdG9yeUluZGV4IGluZGV4LnBocCBpbmRleC5odG1sJyA+IC9ldGMvaHR0cGQvY29uZi5kL2Rpci5jb25mCnNlZCAtaSAtRSAncy9eW1s6c3BhY2U6XV0qQWxsb3dPdmVycmlkZVtbOnNwYWNlOl1dK05vbmUvICAgIEFsbG93T3ZlcnJpZGUgQWxsLycgL2V0Yy9odHRwZC9jb25mL2h0dHBkLmNvbmYKCiMgU0VMaW51eCBhbGxvd2FuY2VzCnNldHNlYm9vbCAtUCBodHRwZF9jYW5fbmV0d29ya19jb25uZWN0IG9uIHx8IHRydWUKc2V0c2Vib29sIC1QIGh0dHBkX3VzZV9uZnMgb24gfHwgdHJ1ZQoKIyA9PT09PSBTU006IHVzZSBGVUxMIEFSTnMgKGNyb3NzLWFjY291bnQtc2FmZSkgPT09PT0KcGFyYW1fYXJuICgpIHsgZWNobyAiYXJuOmF3czpzc206JHtSRUdJT059OiR7T1dORVJfQUNDT1VOVF9JRH06cGFyYW1ldGVyJDEiOyB9CmdldF9wYXJhbSAoKSB7CiAgYXdzIHNzbSBnZXQtcGFyYW1ldGVyIC0tbmFtZSAiJChwYXJhbV9hcm4gIiQxIikiIFwKICAgIC0tcXVlcnkgIlBhcmFtZXRlci5WYWx1ZSIgLS1vdXRwdXQgdGV4dCAtLXJlZ2lvbiAiJFJFR0lPTiIKfQoKRUZTX0lEPSQoZ2V0X3BhcmFtICIvbmFuY3l3cC9lZnNfaWQiKQpMQl9ETlM9JChnZXRfcGFyYW0gIi9uYW5jeXdwL2xiX2RucyIpCkRCX0hPU1Q9JChnZXRfcGFyYW0gIi9uYW5jeXdwL2RiL2hvc3QiKQpEQl9OQU1FPSQoZ2V0X3BhcmFtICIvbmFuY3l3cC9kYi9uYW1lIikKREJfVVNFUj0kKGdldF9wYXJhbSAiL25hbmN5d3AvZGIvdXNlciIpCkRCX1BBU1M9JChhd3Mgc3NtIGdldC1wYXJhbWV0ZXIgLS1uYW1lICIkKHBhcmFtX2FybiAiL25hbmN5d3AvZGIvcGFzc3dvcmQiKSIgLS13aXRoLWRlY3J5cHRpb24gLS1xdWVyeSAiUGFyYW1ldGVyLlZhbHVlIiAtLW91dHB1dCB0ZXh0IC0tcmVnaW9uICIkUkVHSU9OIikKCiMgRmFpbCBmYXN0IGlmIGFueXRoaW5nIGNyaXRpY2FsIGlzIG1pc3NpbmcKWyAtbiAiJEVGU19JRCIgXSAgfHwgeyBlY2hvICJbRVJSXSBNaXNzaW5nIC9uYW5jeXdwL2Vmc19pZCI7ICBleGl0IDE7IH0KWyAtbiAiJERCX0hPU1QiIF0gfHwgeyBlY2hvICJbRVJSXSBNaXNzaW5nIC9uYW5jeXdwL2RiL2hvc3QiOyBleGl0IDE7IH0KWyAtbiAiJERCX05BTUUiIF0gfHwgeyBlY2hvICJbRVJSXSBNaXNzaW5nIC9uYW5jeXdwL2RiL25hbWUiOyBleGl0IDE7IH0KWyAtbiAiJERCX1VTRVIiIF0gfHwgeyBlY2hvICJbRVJSXSBNaXNzaW5nIC9uYW5jeXdwL2RiL3VzZXIiOyBleGl0IDE7IH0KWyAtbiAiJERCX1BBU1MiIF0gfHwgeyBlY2hvICJbRVJSXSBNaXNzaW5nIC9uYW5jeXdwL2RiL3Bhc3N3b3JkIjsgZXhpdCAxOyB9CgojID09PT09IE1vdW50IEVGUyBhdCAvdmFyL3d3dy9odG1sIChub3cgKyBwZXJzaXN0KSA9PT09PQpta2RpciAtcCAvdmFyL3d3dy9odG1sCkZTVEFCX0xJTkU9IiR7RUZTX0lEfS5lZnMuJHtSRUdJT059LmFtYXpvbmF3cy5jb206LyAgL3Zhci93d3cvaHRtbCAgbmZzNCAgbmZzdmVycz00LjEscnNpemU9MTA0ODU3Nix3c2l6ZT0xMDQ4NTc2LGhhcmQsdGltZW89NjAwLHJldHJhbnM9MixfbmV0ZGV2ICAwIDAiCmdyZXAgLXEgIltbOnNwYWNlOl1dJHtFRlNfSUR9XC5lZnNcLiR7UkVHSU9OfVwuYW1hem9uYXdzXC5jb206LyIgL2V0Yy9mc3RhYiB8fCBlY2hvICIkRlNUQUJfTElORSIgPj4gL2V0Yy9mc3RhYgptb3VudCAtdCBuZnM0ICIke0VGU19JRH0uZWZzLiR7UkVHSU9OfS5hbWF6b25hd3MuY29tOi8iIC92YXIvd3d3L2h0bWwKCiMgPT09PT0gRmlyc3QgYm9vdDogcG9wdWxhdGUgc2l0ZSBpbnRvIEVGUyBpZiBlbXB0eSA9PT09PQppZiBbICEgLWYgL3Zhci93d3cvaHRtbC93cC1jb25maWcucGhwIF07IHRoZW4KICBybSAtcmYgL3Zhci93d3cvaHRtbC8qCiAgZ2l0IGNsb25lIC0tZGVwdGggMSAiJFJFUE9fVVJMIiAvdmFyL3d3dy9odG1sIHx8IHRydWUKICBbIC1mIC92YXIvd3d3L2h0bWwvd3AtY29uZmlnLnBocCBdIHx8IFwKICAgIHsgWyAtZiAvdmFyL3d3dy9odG1sL3dwLWNvbmZpZy1zYW1wbGUucGhwIF0gJiYgY3AgL3Zhci93d3cvaHRtbC93cC1jb25maWctc2FtcGxlLnBocCAvdmFyL3d3dy9odG1sL3dwLWNvbmZpZy5waHA7IH0KZmkKCiMgPT09PT0gSFRUUFMgYmVoaW5kIEFMQiAoWC1Gb3J3YXJkZWQtUHJvdG8pID09PT09CmlmICEgZ3JlcCAtcSAiWF9GT1JXQVJERURfUFJPVE8iIC92YXIvd3d3L2h0bWwvd3AtY29uZmlnLnBocDsgdGhlbgogIGNhdCA+PiAvdmFyL3d3dy9odG1sL3dwLWNvbmZpZy5waHAgPDwnUEhQJwovKiBIYW5kbGUgSFRUUFMgYmVoaW5kIGEgbG9hZCBiYWxhbmNlci9wcm94eSAqLwppZiAoaXNzZXQoJF9TRVJWRVJbJ0hUVFBfWF9GT1JXQVJERURfUFJPVE8nXSkgJiYgJF9TRVJWRVJbJ0hUVFBfWF9GT1JXQVJERURfUFJPVE8nXSA9PT0gJ2h0dHBzJykgewogICRfU0VSVkVSWydIVFRQUyddID0gJ29uJzsKfQpQSFAKZmkKCiMgPT09PT0gRmlsbCBEQiBjb25maWcgKHdvcmtzIGZvciBib3RoIHNhbXBsZSBwbGFjZWhvbGRlcnMgJiBkZWZpbmUoKSBsaW5lcykgPT09PT0KIyAxKSBSZXBsYWNlIFdvcmRQcmVzcyBzYW1wbGUgcGxhY2Vob2xkZXJzIGlmIHByZXNlbnQKc2VkIC1pICJzL2RhdGFiYXNlX25hbWVfaGVyZS8ke0RCX05BTUV9LyIgICAgICAvdmFyL3d3dy9odG1sL3dwLWNvbmZpZy5waHAgfHwgdHJ1ZQpzZWQgLWkgInMvdXNlcm5hbWVfaGVyZS8ke0RCX1VTRVJ9LyIgICAgICAgICAgIC92YXIvd3d3L2h0bWwvd3AtY29uZmlnLnBocCB8fCB0cnVlCnNlZCAtaSAicy9wYXNzd29yZF9oZXJlLyR7REJfUEFTU30vIiAgICAgICAgICAgL3Zhci93d3cvaHRtbC93cC1jb25maWcucGhwIHx8IHRydWUKc2VkIC1pICJzL2xvY2FsaG9zdC8ke0RCX0hPU1R9LyIgICAgICAgICAgICAgICAvdmFyL3d3dy9odG1sL3dwLWNvbmZpZy5waHAgfHwgdHJ1ZQoKIyAyKSBBbHNvIGZvcmNlLXVwZGF0ZSBkZWZpbmUoKSBsaW5lcyBpZiB0aGV5IGV4aXN0IGJ1dCBhcmUgYmxhbmsvd3JvbmcKc2VkIC1pIC1FICJzL2RlZmluZVwoJ0RCX05BTUUnLiovZGVmaW5lKCdEQl9OQU1FJywgJyR7REJfTkFNRX0nKTsvIiAgICAgICAgICAgL3Zhci93d3cvaHRtbC93cC1jb25maWcucGhwCnNlZCAtaSAtRSAicy9kZWZpbmVcKCdEQl9VU0VSJy4qL2RlZmluZSgnREJfVVNFUicsICcke0RCX1VTRVJ9Jyk7LyIgICAgICAgICAgIC92YXIvd3d3L2h0bWwvd3AtY29uZmlnLnBocApzZWQgLWkgLUUgInMvZGVmaW5lXCgnREJfUEFTU1dPUkQnLiovZGVmaW5lKCdEQl9QQVNTV09SRCcsICcke0RCX1BBU1N9Jyk7LyIgICAvdmFyL3d3dy9odG1sL3dwLWNvbmZpZy5waHAKc2VkIC1pIC1FICJzL2RlZmluZVwoJ0RCX0hPU1QnLiovZGVmaW5lKCdEQl9IT1NUJywgJyR7REJfSE9TVH0nKTsvIiAgICAgICAgICAgL3Zhci93d3cvaHRtbC93cC1jb25maWcucGhwCgojID09PT09IFNldCBXb3JkUHJlc3Mgc2l0ZSBVUkwgdG8gZnJpZW5kbHkgZG9tYWluIGlmIGF2YWlsYWJsZSA9PT09PQpCTE9HX0RPTUFJTj0iZGV2LmJsb2cubmFuY3ktc3RhY2suY29tIgppZiBjb21tYW5kIC12IG15c3FsID4vZGV2L251bGwgMj4mMTsgdGhlbgogICMgVHJ5IHRvIHVzZSB0aGUgZnJpZW5kbHkgZG9tYWluIGlmIGl0IHJlc29sdmVzCiAgaWYgaG9zdCAiJEJMT0dfRE9NQUlOIiA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICAgIG15c3FsIC1oICIke0RCX0hPU1R9IiAtdSAiJHtEQl9VU0VSfSIgLXAiJHtEQl9QQVNTfSIgIiR7REJfTkFNRX0iIC1lIFwKICAgICAgIlVQREFURSB3cF9vcHRpb25zIFNFVCBvcHRpb25fdmFsdWU9J2h0dHA6Ly8ke0JMT0dfRE9NQUlOfScgV0hFUkUgb3B0aW9uX25hbWUgSU4gKCdzaXRldXJsJywnaG9tZScpOyIKICBlbHNlCiAgICBteXNxbCAtaCAiJHtEQl9IT1NUfSIgLXUgIiR7REJfVVNFUn0iIC1wIiR7REJfUEFTU30iICIke0RCX05BTUV9IiAtZSBcCiAgICAgICJVUERBVEUgd3Bfb3B0aW9ucyBTRVQgb3B0aW9uX3ZhbHVlPSdodHRwOi8vJHtMQl9ETlN9JyBXSEVSRSBvcHRpb25fbmFtZSBJTiAoJ3NpdGV1cmwnLCdob21lJyk7IgogIGZpCmZpCgojID09PT09IFBlcm1pc3Npb25zID09PT09CmNob3duIC1SIGFwYWNoZTphcGFjaGUgL3Zhci93d3cvaHRtbApmaW5kIC92YXIvd3d3L2h0bWwgLXR5cGUgZCAtZXhlYyBjaG1vZCAyNzc1IHt9IFw7CmZpbmQgL3Zhci93d3cvaHRtbCAtdHlwZSBmIC1leGVjIGNobW9kIDA2NjQge30gXDsKCiMgSGVhbHRoIHByb2JlIChyZW1vdmUgbGF0ZXIpCmVjaG8gJzw/cGhwIHBocGluZm8oKTsnID4gL3Zhci93d3cvaHRtbC9oZWFsdGgucGhwCmNob3duIGFwYWNoZTphcGFjaGUgL3Zhci93d3cvaHRtbC9oZWFsdGgucGhwCmNobW9kIDA2NDQgL3Zhci93d3cvaHRtbC9oZWFsdGgucGhwCgojIFJlc3RhcnQgYW5kIGZpbmlzaApzeXN0ZW1jdGwgcmVzdGFydCBwaHAtZnBtIGh0dHBkCmVjaG8gIltPS10gU3RhY2sgcmVhZHkuIFRyeTogY3VybCAtSSBodHRwOi8vbG9jYWxob3N0LyBhbmQgL2hlYWx0aC5waHAiCg==",
+            "vpc_security_group_ids": [
+              "sg-041d6687a563e0dc9"
+            ]
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "aws_db_instance.nancy_blog_db",
+            "aws_efs_file_system.blog_efs",
+            "aws_key_pair.blog_key",
+            "aws_lb.blog_alb",
+            "aws_security_group.blog_sg",
+            "data.aws_ami.blog_ami",
+            "data.aws_vpc.blog_vpc",
+            "random_id.blog_db_suffix",
+            "tls_private_key.blog_key"
+          ],
+          "create_before_destroy": true
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_lb",
+      "name": "blog_alb",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "access_logs": [
+              {
+                "bucket": "",
+                "enabled": false,
+                "prefix": ""
+              }
+            ],
+            "arn": "arn:aws:elasticloadbalancing:us-east-1:083587468058:loadbalancer/app/nancy-blog-alb-dev/24ccfcb2960d894c",
+            "arn_suffix": "app/nancy-blog-alb-dev/24ccfcb2960d894c",
+            "client_keep_alive": 3600,
+            "connection_logs": [
+              {
+                "bucket": "",
+                "enabled": false,
+                "prefix": ""
+              }
+            ],
+            "customer_owned_ipv4_pool": "",
+            "desync_mitigation_mode": "defensive",
+            "dns_name": "nancy-blog-alb-dev-298163574.us-east-1.elb.amazonaws.com",
+            "dns_record_client_routing_policy": null,
+            "drop_invalid_header_fields": false,
+            "enable_cross_zone_load_balancing": true,
+            "enable_deletion_protection": false,
+            "enable_http2": true,
+            "enable_tls_version_and_cipher_suite_headers": false,
+            "enable_waf_fail_open": false,
+            "enable_xff_client_port": false,
+            "enable_zonal_shift": false,
+            "enforce_security_group_inbound_rules_on_private_link_traffic": "",
+            "id": "arn:aws:elasticloadbalancing:us-east-1:083587468058:loadbalancer/app/nancy-blog-alb-dev/24ccfcb2960d894c",
+            "idle_timeout": 60,
+            "internal": false,
+            "ip_address_type": "ipv4",
+            "ipam_pools": [],
+            "load_balancer_type": "application",
+            "minimum_load_balancer_capacity": [],
+            "name": "nancy-blog-alb-dev",
+            "name_prefix": "",
+            "preserve_host_header": false,
+            "security_groups": [
+              "sg-041d6687a563e0dc9"
+            ],
+            "subnet_mapping": [
+              {
+                "allocation_id": "",
+                "ipv6_address": "",
+                "outpost_id": "",
+                "private_ipv4_address": "",
+                "subnet_id": "subnet-0845a6847dc55232b"
+              },
+              {
+                "allocation_id": "",
+                "ipv6_address": "",
+                "outpost_id": "",
+                "private_ipv4_address": "",
+                "subnet_id": "subnet-0a9d993807904fd0c"
+              },
+              {
+                "allocation_id": "",
+                "ipv6_address": "",
+                "outpost_id": "",
+                "private_ipv4_address": "",
+                "subnet_id": "subnet-0fdf3adafd8031d1e"
+              }
+            ],
+            "subnets": [
+              "subnet-0845a6847dc55232b",
+              "subnet-0a9d993807904fd0c",
+              "subnet-0fdf3adafd8031d1e"
+            ],
+            "tags": {
+              "Application": "nancy-blog",
+              "Environment": "dev",
+              "Name": "nancy-blog-alb-dev",
+              "OwnerEmail": "nancytcheby@hotmail.com"
+            },
+            "tags_all": {
+              "Application": "nancy-blog",
+              "Environment": "dev",
+              "Name": "nancy-blog-alb-dev",
+              "OwnerEmail": "nancytcheby@hotmail.com"
+            },
+            "timeouts": null,
+            "vpc_id": "vpc-03933c67bfb9249b8",
+            "xff_header_processing_mode": "append",
+            "zone_id": "Z35SXDOTRQ7X7K"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo2MDAwMDAwMDAwMDAsImRlbGV0ZSI6NjAwMDAwMDAwMDAwLCJ1cGRhdGUiOjYwMDAwMDAwMDAwMH19",
+          "dependencies": [
+            "aws_security_group.blog_sg",
+            "data.aws_vpc.blog_vpc"
+          ],
+          "create_before_destroy": true
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_lb_listener",
+      "name": "blog_http",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "alpn_policy": null,
+            "arn": "arn:aws:elasticloadbalancing:us-east-1:083587468058:listener/app/nancy-blog-alb-dev/24ccfcb2960d894c/34d1d9b859c0b290",
+            "certificate_arn": null,
+            "default_action": [
+              {
+                "authenticate_cognito": [],
+                "authenticate_oidc": [],
+                "fixed_response": [],
+                "forward": [],
+                "order": 1,
+                "redirect": [],
+                "target_group_arn": "arn:aws:elasticloadbalancing:us-east-1:083587468058:targetgroup/nancy-blog-tg-dev/b14714bd9a7cc6b5",
+                "type": "forward"
+              }
+            ],
+            "id": "arn:aws:elasticloadbalancing:us-east-1:083587468058:listener/app/nancy-blog-alb-dev/24ccfcb2960d894c/34d1d9b859c0b290",
+            "load_balancer_arn": "arn:aws:elasticloadbalancing:us-east-1:083587468058:loadbalancer/app/nancy-blog-alb-dev/24ccfcb2960d894c",
+            "mutual_authentication": [],
+            "port": 80,
+            "protocol": "HTTP",
+            "routing_http_request_x_amzn_mtls_clientcert_header_name": null,
+            "routing_http_request_x_amzn_mtls_clientcert_issuer_header_name": null,
+            "routing_http_request_x_amzn_mtls_clientcert_leaf_header_name": null,
+            "routing_http_request_x_amzn_mtls_clientcert_serial_number_header_name": null,
+            "routing_http_request_x_amzn_mtls_clientcert_subject_header_name": null,
+            "routing_http_request_x_amzn_mtls_clientcert_validity_header_name": null,
+            "routing_http_request_x_amzn_tls_cipher_suite_header_name": null,
+            "routing_http_request_x_amzn_tls_version_header_name": null,
+            "routing_http_response_access_control_allow_credentials_header_value": "",
+            "routing_http_response_access_control_allow_headers_header_value": "",
+            "routing_http_response_access_control_allow_methods_header_value": "",
+            "routing_http_response_access_control_allow_origin_header_value": "",
+            "routing_http_response_access_control_expose_headers_header_value": "",
+            "routing_http_response_access_control_max_age_header_value": "",
+            "routing_http_response_content_security_policy_header_value": "",
+            "routing_http_response_server_enabled": true,
+            "routing_http_response_strict_transport_security_header_value": "",
+            "routing_http_response_x_content_type_options_header_value": "",
+            "routing_http_response_x_frame_options_header_value": "",
+            "ssl_policy": "",
+            "tags": {},
+            "tags_all": {},
+            "tcp_idle_timeout_seconds": null,
+            "timeouts": null
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjozMDAwMDAwMDAwMDAsInVwZGF0ZSI6MzAwMDAwMDAwMDAwfX0=",
+          "dependencies": [
+            "aws_lb.blog_alb",
+            "aws_lb_target_group.blog_tg",
+            "aws_security_group.blog_sg",
+            "data.aws_vpc.blog_vpc"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_lb_target_group",
+      "name": "blog_tg",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "arn": "arn:aws:elasticloadbalancing:us-east-1:083587468058:targetgroup/nancy-blog-tg-dev/b14714bd9a7cc6b5",
+            "arn_suffix": "targetgroup/nancy-blog-tg-dev/b14714bd9a7cc6b5",
+            "connection_termination": null,
+            "deregistration_delay": "300",
+            "health_check": [
+              {
+                "enabled": true,
+                "healthy_threshold": 2,
+                "interval": 30,
+                "matcher": "200",
+                "path": "/health.php",
+                "port": "traffic-port",
+                "protocol": "HTTP",
+                "timeout": 5,
+                "unhealthy_threshold": 2
+              }
+            ],
+            "id": "arn:aws:elasticloadbalancing:us-east-1:083587468058:targetgroup/nancy-blog-tg-dev/b14714bd9a7cc6b5",
+            "ip_address_type": "ipv4",
+            "lambda_multi_value_headers_enabled": false,
+            "load_balancer_arns": [
+              "arn:aws:elasticloadbalancing:us-east-1:083587468058:loadbalancer/app/nancy-blog-alb-dev/24ccfcb2960d894c"
+            ],
+            "load_balancing_algorithm_type": "round_robin",
+            "load_balancing_anomaly_mitigation": "off",
+            "load_balancing_cross_zone_enabled": "use_load_balancer_configuration",
+            "name": "nancy-blog-tg-dev",
+            "name_prefix": "",
+            "port": 80,
+            "preserve_client_ip": null,
+            "protocol": "HTTP",
+            "protocol_version": "HTTP1",
+            "proxy_protocol_v2": false,
+            "slow_start": 0,
+            "stickiness": [
+              {
+                "cookie_duration": 86400,
+                "cookie_name": "",
+                "enabled": false,
+                "type": "lb_cookie"
+              }
+            ],
+            "tags": {
+              "Application": "nancy-blog",
+              "Environment": "dev",
+              "Name": "nancy-blog-tg-dev",
+              "OwnerEmail": "nancytcheby@hotmail.com"
+            },
+            "tags_all": {
+              "Application": "nancy-blog",
+              "Environment": "dev",
+              "Name": "nancy-blog-tg-dev",
+              "OwnerEmail": "nancytcheby@hotmail.com"
+            },
+            "target_failover": [
+              {
+                "on_deregistration": null,
+                "on_unhealthy": null
+              }
+            ],
+            "target_group_health": [
+              {
+                "dns_failover": [
+                  {
+                    "minimum_healthy_targets_count": "1",
+                    "minimum_healthy_targets_percentage": "off"
+                  }
+                ],
+                "unhealthy_state_routing": [
+                  {
+                    "minimum_healthy_targets_count": 1,
+                    "minimum_healthy_targets_percentage": "off"
+                  }
+                ]
+              }
+            ],
+            "target_health_state": [
+              {
+                "enable_unhealthy_connection_termination": null,
+                "unhealthy_draining_interval": null
+              }
+            ],
+            "target_type": "instance",
+            "vpc_id": "vpc-03933c67bfb9249b8"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "data.aws_vpc.blog_vpc"
+          ],
+          "create_before_destroy": true
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_route53_record",
+      "name": "blog_dns",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 2,
+          "attributes": {
+            "alias": [
+              {
+                "evaluate_target_health": true,
+                "name": "nancy-blog-alb-dev-298163574.us-east-1.elb.amazonaws.com",
+                "zone_id": "Z35SXDOTRQ7X7K"
+              }
+            ],
+            "allow_overwrite": null,
+            "cidr_routing_policy": [],
+            "failover_routing_policy": [],
+            "fqdn": "dev.blog.nancy-stack.com",
+            "geolocation_routing_policy": [],
+            "geoproximity_routing_policy": [],
+            "health_check_id": "",
+            "id": "Z074704322JFUBDW5LSEH_dev.blog.nancy-stack.com_A",
+            "latency_routing_policy": [],
+            "multivalue_answer_routing_policy": false,
+            "name": "dev.blog.nancy-stack.com",
+            "records": [],
+            "set_identifier": "",
+            "timeouts": null,
+            "ttl": 0,
+            "type": "A",
+            "weighted_routing_policy": [],
+            "zone_id": "Z074704322JFUBDW5LSEH"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxODAwMDAwMDAwMDAwLCJkZWxldGUiOjE4MDAwMDAwMDAwMDAsInVwZGF0ZSI6MTgwMDAwMDAwMDAwMH0sInNjaGVtYV92ZXJzaW9uIjoiMiJ9",
+          "dependencies": [
+            "aws_lb.blog_alb",
+            "aws_security_group.blog_sg",
+            "data.aws_route53_zone.blog",
+            "data.aws_vpc.blog_vpc"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_security_group",
+      "name": "blog_db_sg",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "arn": "arn:aws:ec2:us-east-1:083587468058:security-group/sg-0e4976d2ca8d56390",
+            "description": "DB SG for Nancy Blog",
+            "egress": [
+              {
+                "cidr_blocks": [
+                  "0.0.0.0/0"
+                ],
+                "description": "Allow all outbound traffic",
+                "from_port": 0,
+                "ipv6_cidr_blocks": [],
+                "prefix_list_ids": [],
+                "protocol": "-1",
+                "security_groups": [],
+                "self": false,
+                "to_port": 0
+              }
+            ],
+            "id": "sg-0e4976d2ca8d56390",
+            "ingress": [
+              {
+                "cidr_blocks": [
+                  "0.0.0.0/0"
+                ],
+                "description": "HTTP access",
+                "from_port": 80,
+                "ipv6_cidr_blocks": [],
+                "prefix_list_ids": [],
+                "protocol": "tcp",
+                "security_groups": [],
+                "self": false,
+                "to_port": 80
+              },
+              {
+                "cidr_blocks": [
+                  "0.0.0.0/0"
+                ],
+                "description": "MySQL access",
+                "from_port": 3306,
+                "ipv6_cidr_blocks": [],
+                "prefix_list_ids": [],
+                "protocol": "tcp",
+                "security_groups": [],
+                "self": false,
+                "to_port": 3306
+              },
+              {
+                "cidr_blocks": [
+                  "0.0.0.0/0"
+                ],
+                "description": "NFS for EFS",
+                "from_port": 2049,
+                "ipv6_cidr_blocks": [],
+                "prefix_list_ids": [],
+                "protocol": "tcp",
+                "security_groups": [],
+                "self": false,
+                "to_port": 2049
+              },
+              {
+                "cidr_blocks": [
+                  "0.0.0.0/0"
+                ],
+                "description": "SSH access",
+                "from_port": 22,
+                "ipv6_cidr_blocks": [],
+                "prefix_list_ids": [],
+                "protocol": "tcp",
+                "security_groups": [],
+                "self": false,
+                "to_port": 22
+              }
+            ],
+            "name": "blog-db-sg-dev-20251129045843845000000002",
+            "name_prefix": "blog-db-sg-dev-",
+            "owner_id": "083587468058",
+            "revoke_rules_on_delete": false,
+            "tags": {
+              "Application": "nancy-blog",
+              "Environment": "dev",
+              "Name": "blog-db-sg-dev",
+              "OwnerEmail": "nancytcheby@hotmail.com"
+            },
+            "tags_all": {
+              "Application": "nancy-blog",
+              "Environment": "dev",
+              "Name": "blog-db-sg-dev",
+              "OwnerEmail": "nancytcheby@hotmail.com"
+            },
+            "timeouts": null,
+            "vpc_id": "vpc-03933c67bfb9249b8"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo2MDAwMDAwMDAwMDAsImRlbGV0ZSI6OTAwMDAwMDAwMDAwfSwic2NoZW1hX3ZlcnNpb24iOiIxIn0=",
+          "dependencies": [
+            "data.aws_vpc.blog_vpc"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_security_group",
+      "name": "blog_sg",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "arn": "arn:aws:ec2:us-east-1:083587468058:security-group/sg-041d6687a563e0dc9",
+            "description": "SG for Nancy Blog",
+            "egress": [
+              {
+                "cidr_blocks": [
+                  "0.0.0.0/0"
+                ],
+                "description": "Allow all outbound traffic",
+                "from_port": 0,
+                "ipv6_cidr_blocks": [],
+                "prefix_list_ids": [],
+                "protocol": "-1",
+                "security_groups": [],
+                "self": false,
+                "to_port": 0
+              }
+            ],
+            "id": "sg-041d6687a563e0dc9",
+            "ingress": [
+              {
+                "cidr_blocks": [
+                  "0.0.0.0/0"
+                ],
+                "description": "HTTP access",
+                "from_port": 80,
+                "ipv6_cidr_blocks": [],
+                "prefix_list_ids": [],
+                "protocol": "tcp",
+                "security_groups": [],
+                "self": false,
+                "to_port": 80
+              },
+              {
+                "cidr_blocks": [
+                  "0.0.0.0/0"
+                ],
+                "description": "SSH access",
+                "from_port": 22,
+                "ipv6_cidr_blocks": [],
+                "prefix_list_ids": [],
+                "protocol": "tcp",
+                "security_groups": [],
+                "self": false,
+                "to_port": 22
+              }
+            ],
+            "name": "nancy-blog-sg-dev",
+            "name_prefix": "",
+            "owner_id": "083587468058",
+            "revoke_rules_on_delete": false,
+            "tags": {
+              "Application": "nancy-blog",
+              "Environment": "dev",
+              "Name": "nancy-blog-sg-dev",
+              "OwnerEmail": "nancytcheby@hotmail.com",
+              "Project": "nancy-blog"
+            },
+            "tags_all": {
+              "Application": "nancy-blog",
+              "Environment": "dev",
+              "Name": "nancy-blog-sg-dev",
+              "OwnerEmail": "nancytcheby@hotmail.com",
+              "Project": "nancy-blog"
+            },
+            "timeouts": null,
+            "vpc_id": "vpc-03933c67bfb9249b8"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo2MDAwMDAwMDAwMDAsImRlbGV0ZSI6OTAwMDAwMDAwMDAwfSwic2NoZW1hX3ZlcnNpb24iOiIxIn0=",
+          "dependencies": [
+            "data.aws_vpc.blog_vpc"
+          ],
+          "create_before_destroy": true
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "random_id",
+      "name": "blog_db_suffix",
+      "provider": "provider[\"registry.terraform.io/hashicorp/random\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "b64_std": "FrV0Mg==",
+            "b64_url": "FrV0Mg",
+            "byte_length": 4,
+            "dec": "380990514",
+            "hex": "16b57432",
+            "id": "FrV0Mg",
+            "keepers": null,
+            "prefix": null
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "create_before_destroy": true
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "tls_private_key",
+      "name": "blog_key",
+      "provider": "provider[\"registry.terraform.io/hashicorp/tls\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "algorithm": "RSA",
+            "ecdsa_curve": "P224",
+            "id": "21d9170b9cc0a89b87856bbc86fcb9174ca7188f",
+            "private_key_openssh": "-----BEGIN OPENSSH PRIVATE KEY-----\n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\n-----END OPENSSH PRIVATE KEY-----\n",
+            "private_key_pem": "-----BEGIN RSA PRIVATE KEY-----\n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\n-----END RSA PRIVATE KEY-----\n",
+            "private_key_pem_pkcs8": "-----BEGIN PRIVATE KEY-----\n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\nUEdi/8COX36Rs1FbbRTWR9qdzQsi\n-----END PRIVATE KEY-----\n",
+            "public_key_fingerprint_md5": "f0:78:71:24:f4:54:de:17:ea:0f:71:64:3e:45:61:f8",
+            "public_key_fingerprint_sha256": "SHA256:LQ4CUuMHBI4ecfdBYEQ9g8WUQayG75cMINIuho/g5sk",
+            "public_key_openssh": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCbi5+p6fuA8aGnPMv3L1dpr3Ik6lcA5ZJIM5nN71yBzFTBZl0CyYgIMkSERXqRuISwbJt+5L7x6SaSVX8h2cDw/ZGGeyY+12zPGzgGPgC7XQUcQgJnOYbuZ4+DEEtRRcyj7saYWtrkMjpbC2KyOnT63S6e7WzmJw8WV2nkTyt6o8LkRkE8Y8o4NjwjP2o7LEDKepODoRkuhAc6mtDi5/Yd32seD6Sj4T8AyrD0guBGq/UQnL5O0ghmt6lbGFJQRHBzFn/pKtE+dnB6v4wZn1tVBAR5V31/+PGPQdV2HdT62fqiMe7Wd65VTX41YFBXscbH11HauYfr0L4T4yoQPRbnsl2YC/CbmGiJz+CvGBoceNlcH6c/oHg3GoW3bsXxqPFZrFZ+v4V6DOx1EYyktF/iWbMLVI0wbW5mTN8yeNmtpGfyLj4iawUIG/1x6bePDTVSFBDxXmJlkvHZBmzRH0MAydoj/5M3WciThujAdxIaG24QLzLOLq4RZuzWaLzUG4lektJGquvtC+gy5e0BbzJWqbGTfV35rm5UuPG7o5fD/U82kcWD1fJyWjWGjiv+JpzhVbqtL+72be9ikgKrNzmLqfE7JnQ3JsNsjBGcLKQOFO3LCwsBWOOsBRjSCPQuqDZYnEhxxZ9fdlRii7UYIiwqTI5lCYIRtIpislp43wQDnQ==\n",
+            "public_key_pem": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAm4ufqen7gPGhpzzL9y9X\naa9yJOpXAOWSSDOZze9cgcxUwWZdAsmICDJEhEV6kbiEsGybfuS+8ekmklV/IdnA\n8P2RhnsmPtdszxs4Bj4Au10FHEICZzmG7mePgxBLUUXMo+7GmFra5DI6Wwtisjp0\n+t0unu1s5icPFldp5E8reqPC5EZBPGPKODY8Iz9qOyxAynqTg6EZLoQHOprQ4uf2\nHd9rHg+ko+E/AMqw9ILgRqv1EJy+TtIIZrepWxhSUERwcxZ/6SrRPnZwer+MGZ9b\nVQQEeVd9f/jxj0HVdh3U+tn6ojHu1neuVU1+NWBQV7HGx9dR2rmH69C+E+MqED0W\n57JdmAvwm5hoic/grxgaHHjZXB+nP6B4NxqFt27F8ajxWaxWfr+FegzsdRGMpLRf\n4lmzC1SNMG1uZkzfMnjZraRn8i4+ImsFCBv9cem3jw01UhQQ8V5iZZLx2QZs0R9D\nAMnaI/+TN1nIk4bowHcSGhtuEC8yzi6uEWbs1mi81BuJXpLSRqrr7QvoMuXtAW8y\nVqmxk31d+a5uVLjxu6OXw/1PNpHFg9Xyclo1ho4r/iac4VW6rS/u9m3vYpICqzc5\ni6nxOyZ0NybDbIwRnCykDhTtywsLAVjjrAUY0gj0Lqg2WJxIccWfX3ZUYou1GCIs\nKkyOZQmCEbSKYrJaeN8EA50CAwEAAQ==\n-----END PUBLIC KEY-----\n",
+            "rsa_bits": 4096
+          },
+          "sensitive_attributes": [
+            [
+              {
+                "type": "get_attr",
+                "value": "private_key_openssh"
+              }
+            ],
+            [
+              {
+                "type": "get_attr",
+                "value": "private_key_pem"
+              }
+            ],
+            [
+              {
+                "type": "get_attr",
+                "value": "private_key_pem_pkcs8"
+              }
+            ]
+          ],
+          "identity_schema_version": 0,
+          "create_before_destroy": true
+        }
+      ]
+    }
+  ],
+  "check_results": null
+}
