@@ -72,7 +72,7 @@ source "amazon-ebs" "blog_ami" {
     delete_on_termination = true
     device_name           = "/dev/xvda"
     encrypted             = false
-    volume_size           = 10
+    volume_size           = 30
     volume_type           = "gp3"
   }
 
