@@ -51,7 +51,7 @@ locals {
     lb_dns     = aws_lb.blog_alb.dns_name
 
     db_host    = aws_db_instance.nancy_blog_db.address
-    db_name    = aws_db_instance.nancy_blog_db.db_name
+    db_name    = "wordpress"
     db_user    = var.blog_db_username
     db_pass    = var.blog_db_password
     BLOG_DOMAIN = var.blog_dns_record_name
@@ -122,7 +122,7 @@ resource "aws_key_pair" "blog_key" {
 
 resource "aws_launch_template" "blog_lt" {
   name_prefix   = "nancy-blog-lt-${var.env}-"
-  image_id      = data.aws_ami.blog_ami.id
+  image_id = var.custom_ami_id != "" ? var.custom_ami_id : data.aws_ami.blog_ami.id
   instance_type = var.blog_ec2_instance_type
 
   key_name = aws_key_pair.blog_key.key_name

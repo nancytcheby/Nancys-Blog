@@ -11,6 +11,16 @@ variable "aws_region" {
 }
 
 # ----------------------------------------
+# AMI Configuration (for Packer)
+# ----------------------------------------
+
+variable "custom_ami_id" {
+  description = "Custom AMI ID from Packer build (if empty, uses latest Amazon Linux 2023)"
+  type        = string
+  default     = ""
+}
+
+# ----------------------------------------
 # VPC Configuration (NEW)
 # ----------------------------------------
 
